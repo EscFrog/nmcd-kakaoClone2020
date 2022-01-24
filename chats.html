@@ -8,7 +8,7 @@
     <title>Chats - Kokoa Clone</title>
 </head>
 <body>
-    <div class="status-bar-fixedcontainer">
+    <div class="status-bar--fixedcontainer">
         <div class="status-bar">
             <div class="status-bar__column">
                 <span>No Service</span>
@@ -36,22 +36,44 @@
     </header>
 
     <main class="main-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrF4xR8qhqAvv-u7fc_LvgmdTpExeH2ESdyA&usqp=CAU"
-                    class="user-component__avatar"
-                />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">WalterP</h4>
-                    <h6 class="user-component__subtitle">
-                        Now I'm reviewing HTML and CSS
-                    </h6>
+        <div class="user-component--container">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrF4xR8qhqAvv-u7fc_LvgmdTpExeH2ESdyA&usqp=CAU"
+                        class="user-component__avatar"
+                    />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">WalterP</h4>
+                        <h6 class="user-component__subtitle">
+                            Now I'm reviewing HTML and CSS
+                        </h6>
+                    </div>
                 </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">21:22</span>
+                    <div class="badge">1</div>
             </div>
-            <div class="user-component__column">
-                <span class="user-component__time">21:22</span>
-                <div class="badge">1</div>
+        </div>
+        <!-- next user component -->
+        <div class="user-component--container">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrF4xR8qhqAvv-u7fc_LvgmdTpExeH2ESdyA&usqp=CAU"
+                        class="user-component__avatar"
+                    />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">WalterP</h4>
+                        <h6 class="user-component__subtitle">
+                            Now I'm reviewing HTML and CSS
+                        </h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">21:22</span>
+                    <div class="badge">1</div>
+            </div>
         </div>
     </main>
 
