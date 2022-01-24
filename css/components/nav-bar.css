@@ -18,20 +18,10 @@
     color: #2e363e;
 }
 
-.nav__notification-comment {
-    background-color: tomato;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 1px;
-    font-weight: 600;
+.nav__notification {
     position: absolute;
-    left: 10px;
-    bottom: 13px;
+    left: 15px;
+    bottom: 15px;
 }
 
 .nav__notification-ellipsis {
