@@ -110,17 +110,18 @@
     width: 100%;
     border: var(--main-border);
     border-radius: 20px;
+    box-sizing: border-box;
 }
 
 .reply__column:last-child > i,
 .reply__column:last-child button {
     position: absolute;
-    right: -18px;
+    right: 5px;
     top: 6px;
 }
 
 .reply__column:last-child > i {
-    right: 25px;
+    right: 45px;
     top: 13px;
 }
 
