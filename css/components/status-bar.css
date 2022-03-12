@@ -2,10 +2,12 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
+    top: 0px;
     position: fixed;
     width: 100%;
     box-sizing: border-box;
     z-index: 2;
+    background-color: white;
 }
 
 .status-bar__column {
